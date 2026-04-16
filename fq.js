@@ -2,8 +2,8 @@
   'use strict';
 
   // ─── Config ────────────────────────────────────────────────────────────────
-  var INGEST_URL = 'https://funneliq-ingest.fly.dev/e';
-  var PROJECT_KEY = 'pk_test_abc123xyz';
+  var INGEST_URL = 'https://api.veinanalytics.com/e';
+  var PROJECT_KEY = w._fq_key || 'pk_test_abc123xyz';
   var COOKIE_NAME = '_fq_id';
   var COOKIE_TTL  = 365;   // days
   var SESSION_KEY = '_fq_sid';
